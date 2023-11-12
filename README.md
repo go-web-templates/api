@@ -1,6 +1,6 @@
 # Go Web Templates - API
 
-An Framework agnostic REST Api template. This repository is part of a collection of Golang web templates, for more information on how to use and modify these templates check the [main repository]() and the [wiki]().
+An Framework-agnostic REST Api template. This repository is part of a collection of Golang web templates, for more information on how to use and modify these templates check the [main repository](https://github.com/go-web-templates/go-web-templates) and the [wiki](https://github.com/go-web-templates/go-web-templates/wiki).
 
 ## How to use this template:
 
