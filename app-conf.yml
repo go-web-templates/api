@@ -1,0 +1,14 @@
+port: "${APP_PORT|80}"
+
+data:
+  database:
+    user: "${DB_USER}"
+    pass: "${DB_PASS}"
+    name: "${DB_NAME|go_web_templates}"
+    host: "${DB_HOST}"
+    port: "${DB_PORT|5432}"
+
+  cache:
+    host: "${CACHE_HOST}"
+    pass: "${CACHE_PASS}"
+    port: "${CACHE_PORT|6379}"

@@ -1,0 +1,14 @@
+port: "${APP_PORT|8080}"
+
+data:
+  database:
+    user: "${DB_USER|postgres}"
+    pass: "${DB_PASS|postgres}"
+    name: "${DB_NAME|go_web_templates_dev}"
+    host: "${DB_HOST|localhost}"
+    port: "${DB_PORT|5432}"
+
+  cache:
+    host: "${CACHE_HOST|localhost}"
+    pass: "${CACHE_PASS|redis}"
+    port: "${CACHE_PORT|6379}"
